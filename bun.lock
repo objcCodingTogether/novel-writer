@@ -11,7 +11,6 @@
         "glob": "^10.3.10",
         "inquirer": "^9.2.12",
         "js-yaml": "^4.1.0",
-        "novel-writer-cn": "link:novel-writer-cn",
         "ora": "^8.0.1",
       },
       "devDependencies": {
@@ -201,8 +200,6 @@
 
     "mute-stream": ["mute-stream@1.0.0", "", {}, ""],
 
-    "novel-writer-cn": ["novel-writer-cn@link:novel-writer-cn", { "bin": { "novel": "dist/cli.js" } }],
-
     "onetime": ["onetime@7.0.0", "", { "dependencies": { "mimic-function": "^5.0.0" } }, ""],
 
     "ora": ["ora@8.2.0", "", { "dependencies": { "chalk": "^5.3.0", "cli-cursor": "^5.0.0", "cli-spinners": "^2.9.2", "is-interactive": "^2.0.0", "is-unicode-supported": "^2.0.0", "log-symbols": "^6.0.0", "stdin-discarder": "^0.2.2", "string-width": "^7.2.0", "strip-ansi": "^7.1.0" } }, ""],
@@ -278,8 +275,6 @@
     "ora/string-width": ["string-width@7.2.0", "", { "dependencies": { "emoji-regex": "^10.3.0", "get-east-asian-width": "^1.0.0", "strip-ansi": "^7.1.0" } }, ""],
 
     "ora/strip-ansi": ["strip-ansi@7.1.2", "", { "dependencies": { "ansi-regex": "^6.0.1" } }, ""],
-
-    "restore-cursor/signal-exit": ["signal-exit@4.1.0", "", {}, "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="],
 
     "@isaacs/cliui/string-width/emoji-regex": ["emoji-regex@file:node_modules/@isaacs/cliui/node_modules/emoji-regex", {}],
 

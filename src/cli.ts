@@ -589,6 +589,7 @@ program
     console.log('\n' + chalk.gray('可用插件:'));
     console.log('  translate         - 中英文翻译插件');
     console.log('  authentic-voice   - 真实人声写作插件');
+    console.log('  ad-creative       - 广告创意文案撰写插件');
   });
 
 program
