@@ -1,0 +1,20 @@
+name: ad-creative
+version: 1.0.0
+description: 广告创意文案撰写插件 - 基于品牌信息与行业创意库生成多路线创意方案
+type: feature
+commands:
+  - id: ad-creative
+    file: commands/ad-creative.md
+    description: 生成广告创意文案与社媒推广方案
+dependencies:
+  core: ">=0.5.0"
+installation:
+  message: |
+    ✅ 广告创意文案插件安装成功！
+
+    可用命令：
+    - /ad-creative  基于品牌与产品信息生成创意方案（含口号、宣言、视觉Prompt与社媒推广）
+
+    使用建议：
+    - 先准备品牌背景、目标产品、禁忌与评估标准（CVBOI），可直接粘贴为 YAML/JSON
+    - 可附上行业创意库示例（竞品与跨界案例）以提升灵感与差异化
